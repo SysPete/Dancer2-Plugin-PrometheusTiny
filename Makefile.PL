@@ -14,8 +14,20 @@ WriteMakefile(
         'Test::More'            => 0,
     },
     PREREQ_PM => {
+        'Dancer2'                  => '0.200000',
+        'Dancer2::Plugin'          => 0,
         'Carp'                     => 0,
         'Prometheus::Tiny'         => '0.006',
         'Prometheus::Tiny::Shared' => '0.021',
+    },
+    META_MERGE => {
+        resources => {
+            repository =>
+              'https://github.com/SysPete/Dancer2-Plugin-PrometheusTiny',
+            bugtracker =>
+              'https://github.com/SysPete/Dancer2-Plugin-PrometheusTiny/issues',
+            IRC     => 'irc://irc.perl.org/#dancer',
+            license => ['http://dev.perl.org/licenses/'],
+        },
     },
 );
