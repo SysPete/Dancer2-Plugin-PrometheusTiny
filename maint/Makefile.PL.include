@@ -2,4 +2,5 @@ BEGIN { -e 'Distar' or system qw(git clone https://github.com/p5sagit/Distar.git
 use lib 'Distar/lib';
 use Distar;
 
-author 'Peter Mottram (SysPete) <peter@sysnix.com>'
+author 'Peter Mottram (SysPete) <peter@sysnix.com>';
+manifest_include 't' => 'config.yml';

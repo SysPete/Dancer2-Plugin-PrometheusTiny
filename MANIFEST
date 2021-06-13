@@ -1,0 +1,9 @@
+Changes
+lib/Dancer2/Plugin/PrometheusTiny.pm
+maint/Makefile.PL.include
+Makefile.PL
+MANIFEST			This list of files
+t/config/endpoint.t
+t/config/include_default_metrics.t
+t/config/metrics.t
+t/lib/TestApp.pm
