@@ -1,1 +1,1 @@
-^(?:Dancer2\-Plugin\-PrometheusTiny-v?[0-9_.]+/|(?!lib/.*\.pm$|lib/.*\.pod$|t/.*\.t$|t/lib/.*\.pm$|xt/.*\.t$|xt/lib/.*\.pm$|(?^:[^/]*\.PL)$|(?^:Changes|MANIFEST|README|LICENSE|META\.yml)$|maint/(?^:[^.].*)$))
+^(?:Dancer2\-Plugin\-PrometheusTiny-v?[0-9_.]+/|(?!lib/.*\.pm$|lib/.*\.pod$|t/config\.yml|t/environments/.*\.yml|t/.*\.t$|t/lib/.*\.pm$|xt/.*\.t$|xt/lib/.*\.pm$|(?^:[^/]*\.PL)$|(?^:Changes|MANIFEST|README|LICENSE|META\.yml)$|maint/(?^:[^.].*)$))
