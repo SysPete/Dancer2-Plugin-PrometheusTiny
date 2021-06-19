@@ -1,5 +1,8 @@
 Revision history for Dancer2::Plugin::PrometheusTiny
 
+
+    * Add files missing from initial release
+
 0.001 - 2021-06-19
 
     * Initial release
