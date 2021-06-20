@@ -19,6 +19,7 @@ WriteMakefile(
         'Carp'                     => 0,
         'Prometheus::Tiny'         => '0.006',
         'Prometheus::Tiny::Shared' => '0.021',
+        'Types::Standard'          => '0',
     },
     META_MERGE => {
         resources => {

@@ -5,11 +5,22 @@ use warnings;
 our $VERSION = '0.003';
 $VERSION = eval $VERSION;
 
-use Dancer2::Core::Types;
 use Dancer2::Plugin;
 use Hash::Merge::Simple ();
 use Prometheus::Tiny::Shared;
 use Time::HiRes ();
+use Types::Standard qw(
+  ArrayRef
+  Bool
+  Dict
+  Enum
+  InstanceOf
+  Maybe
+  Map
+  Num
+  Optional
+  Str
+);
 
 sub default_metrics {
     return {
@@ -171,6 +182,9 @@ sub BUILD {
 
 sub _add_default_metrics {
     my ( $plugin, $response ) = @_;
+    if ( $response->isa('Dancer2::Core::Response::Delayed') ) {
+        $response = $response->response;
+    }
     my $request = $plugin->app->request;
 
     my $elapsed
