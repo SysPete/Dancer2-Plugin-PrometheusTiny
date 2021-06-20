@@ -1,5 +1,6 @@
 Revision history for Dancer2::Plugin::PrometheusTiny
 
+0.005 - 2021-06-20
 
     * add missing Time::HiRes dep.
 
