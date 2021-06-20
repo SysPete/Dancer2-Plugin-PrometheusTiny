@@ -2,7 +2,7 @@ package Dancer2::Plugin::PrometheusTiny;
 use strict;
 use warnings;
 
-our $VERSION = '0.004';
+our $VERSION = '0.005';
 $VERSION = eval $VERSION;
 
 use Dancer2::Plugin;
