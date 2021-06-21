@@ -306,7 +306,7 @@ See L<Prometheus::Tiny/declare> for details.
 
 Defaults to L<Prometheus::Tiny::Shared>.
 
-B<WARNING:> You shoulf only set this if you are running a single process plack
+B<WARNING:> You should only set this if you are running a single process plack
 server such as L<Twiggy>, and you don't want to use file-based store for
 metrics. Setting this to L<Prometheus::Tiny> will mean that metrics are instead
 stored in memory.
